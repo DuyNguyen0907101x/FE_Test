@@ -1,0 +1,36 @@
+.side-menu {
+  padding: 0 20px;
+  // color code
+  background-color: sandybrown;
+  width: 30%;
+  transition: 0.4s;
+  height: 100%;
+  align-self: stretch;
+
+  .side-menu-toggle {
+    transition: 0.4s;
+  }
+
+  .side-menu-item-text {
+    transition: 0.4s;
+  }
+}
+
+.side-menu-collapse {
+  width: 75px;
+
+  .side-menu-toggle {
+    text-align: center;
+    transform: rotate(180deg);
+  }
+
+  .side-menu-item-text {
+    opacity: 0%;
+  }
+}
+
+.content-wrapper {
+  background-color: #00cdcd;
+  min-height: 100vh;
+  flex-grow: 10;
+}

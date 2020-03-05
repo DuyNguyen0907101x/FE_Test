@@ -1,0 +1,21 @@
+.sidebar {
+  height: 100vh;
+  background-color: $secondary-bg;
+  border: 1px solid black;
+
+  &__brand {
+  }
+
+  &__line {
+    width: 90%;
+    border-bottom: 2px solid black;
+    align-self: center;
+  }
+
+  &__items {
+    list-style-type: none;
+  }
+
+  &__item {
+  }
+}

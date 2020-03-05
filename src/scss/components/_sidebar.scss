@@ -1,0 +1,21 @@
+.side-nav {
+  border-top: 1px solid #cccccc;
+  margin-top: 1rem;
+
+  &__item {
+    margin: 1rem 0;
+  }
+
+  &__link {
+    white-space: nowrap;
+
+    &:hover,
+    &:active {
+      font-weight: 700;
+    }
+  }
+
+  &__icon {
+    margin-right: .5rem;
+  }
+}

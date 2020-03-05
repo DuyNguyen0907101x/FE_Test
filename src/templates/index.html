@@ -1,9 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Frontend Test</title>
+    <meta charset="utf-8">
+    <title></title>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
   </head>
-  <body></body>
+  <body>
+    <aside id="sidebar" class="sidebar">
+      <i id="icon" class="sidebar__extend-icon fas fa-chevron-right fa-3x"></i>
+      <div class="line-break"></div>
+      <div class="menu">
+        <a class="menu__item" href="#">
+          <i class="fas fa-cog menu__icon"></i>
+          <p class="menu__title menu__title--none">Menu 1</p>
+        </a>
+        <a class="menu__item" href="#">
+          <i class="fas fa-cog menu__icon"></i>
+          <p class="menu__title menu__title--none">Menu 2</p>
+        </a>
+      </div>
+    </aside>
+    <main id="main" class="main">
+      <h1>LIST OF EMPLOYEES</h1>
+      <div id="employees" class="employee">
+        <script type="text/x-html-template" id="employee-item">
+          <div class="employee__item">
+            <img class= "avatar"></img>
+            <h1 class= "first-name"></h1>
+            <h1 class= "last-name"></h1>
+            <h3 class= "occupation"></h3>
+            <p class="language"></p>
+          </div>
+        </script>
+      </div>
+    </main>
+  </body>
 </html>

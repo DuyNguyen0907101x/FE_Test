@@ -1,26 +1,24 @@
-@import "bootstrap";
+@import 'vendors/bootstrap_override';
 
 $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
-@import "~@fortawesome/fontawesome-free/scss/fontawesome";
-@import "~@fortawesome/fontawesome-free/scss/solid";
-@import "~@fortawesome/fontawesome-free/scss/brands";
-@import "~@fortawesome/fontawesome-free/scss/regular";
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~bootstrap/scss/bootstrap';
+@import 'utils/variables';
+@import 'utils/functions';
+@import 'utils/helpers';
+@import 'utils/mixins';
 
-@import "utils/variables";
-@import "utils/functions";
-@import "utils/helpers";
-@import "utils/mixins";
+@import 'base/reset';
+@import 'base/typography';
 
-@import "base/reset";
-@import "base/typography";
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/navigation';
+@import 'layout/footer';
+@import 'layout/sidebar';
 
-@import "components/sidebar";
-
-@import "layout/grid";
-@import "layout/header";
-@import "layout/navigation";
-@import "layout/footer";
-
-@import "pages/home";
-@import "pages/about";
-@import "pages/index";
+@import 'pages/home';
+@import 'pages/about';

@@ -1,0 +1,41 @@
+.sidebar {
+    padding-left: 10px;
+    height: 100%;
+    background-color:#B3A77D;
+    position: fixed;
+    width: 50px;
+    transition: .2s;
+    &__extend-icon {
+        display: block;
+        margin-bottom: 40px;
+    }
+
+    &--extends {
+        width: 250px;
+    }
+}
+
+.menu {
+    &__item {
+        margin: 20px 0 20px 0;
+        display: flex;
+        align-items: center;
+        color: #000;
+        text-decoration: none;
+    }
+    &__icon {
+        display: inline-block;
+        font-size: 30px;
+        margin-right: 10px;
+    }
+
+    &__title {
+        display: inline-block;
+        font-size: 16px;
+        margin: 0;
+        &--none {
+            display: none;
+        }
+    }
+}
+

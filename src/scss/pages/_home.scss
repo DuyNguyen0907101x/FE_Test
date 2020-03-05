@@ -1,0 +1,9 @@
+.main {
+    background-color: bisque;
+    margin-left: 50px;
+    transition: .2s;
+
+    &--sidebar-extended {
+        margin-left: 250px ;
+    }
+}

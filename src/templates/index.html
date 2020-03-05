@@ -5,5 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Frontend Test</title>
   </head>
-  <body></body>
+  <body>
+    <div class="index-page">
+      <nav id="side-bar" class="index-page__side">
+        <a href="#" id="toggle" class="index-page__side__toggle">
+          <i class="fas fa-chevron-left"></i>
+        </a>
+        <ul class="side-nav">
+          <li class="side-nav__item">
+            <a href="#" class="side-nav__link">
+              <i class="side-nav__icon fas fa-cog"></i>
+              <span>Menu 1</span>
+            </a>
+          </li>
+          <li class="side-nav__item">
+            <a href="#" class="side-nav__link">
+              <i class="side-nav__icon fas fa-cog"></i>
+              <span>Menu 2</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <main class="index-page__main">
+        <h3 class="index-page__main__heading">Employee List</h3>
+
+        <div id="employees"></div>
+      </main>
+    </div>
+  </body>
 </html>

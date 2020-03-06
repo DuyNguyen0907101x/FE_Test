@@ -1,0 +1,34 @@
+.btn {
+    padding: 9px 21px;
+    outline: 0;
+    font-family: 'Nunito';
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    border-radius: 10px;
+    border: 1px solid;
+    text-transform: capitalize;
+}
+
+@each $name, $colors in $button-colors {
+    .btn--#{$name} {
+        background-color: map-get($colors, 'bg-color');
+        color: map-get($colors, 'color');
+        border-color: map-get($colors, 'border-color');
+        transition: all 0.25s ease-in-out;
+        @if $name != "default" {
+            box-shadow: 0px 3px 5px rgba(47, 85, 212, 0.3);
+        }
+
+        &:hover {
+            background-color: map-get($colors, 'bg-color-hover');
+            color: map-get($colors, 'color-hover');
+            cursor: pointer;
+        }
+
+        &[disabled] {
+            cursor: not-allowed;
+            border-color: lighten(map-get($colors, 'border-color'), $disabled-lighten);
+            background-color: lighten(map-get($colors, 'bg-color'), $disabled-lighten);
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.container {
+  max-width: 1200px;
+
+  margin: 0 auto;
+  background-color: #ffffff;
+
+  > * {
+    margin-right: 45px;
+    margin-left: 45px;
+  }
+
+  > .line {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

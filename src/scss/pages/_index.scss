@@ -1,0 +1,13 @@
+.index-page {
+  &__main {
+    background-color: #89ba62;
+    min-height: 100vh;
+    margin-left: 150px;
+    width: 90%;
+
+    &.sidebar--close {
+      margin-left: 60px;
+      width: 95%;
+    }
+  }
+}

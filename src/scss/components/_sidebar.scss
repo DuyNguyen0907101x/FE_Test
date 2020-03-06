@@ -1,0 +1,29 @@
+.sidebar {
+  height: 100%;
+  width: 100px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  background-color: #6e726b;
+
+  padding: 10px;
+
+  &__link {
+    display: inline-block;
+
+    .fas {
+      margin-right: 10px;
+    }
+  }
+
+  &--close {
+    width: 20px;
+
+    .sidebar__text {
+      display: none;
+    }
+  }
+}

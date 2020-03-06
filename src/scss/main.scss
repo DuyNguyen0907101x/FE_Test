@@ -1,4 +1,5 @@
-@import "bootstrap";
+// @import "vendors/bootstrap_override_variables.scss";
+// @import "~bootstrap/scss/bootstrap";
 
 $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 @import "~@fortawesome/fontawesome-free/scss/fontawesome";
@@ -14,6 +15,10 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 @import "base/reset";
 @import "base/typography";
 
+@import "components/buttons";
+@import "components/dropdown";
+@import "components/slogan";
+@import "components/feature";
 @import "components/sidebar";
 
 @import "layout/grid";
@@ -21,6 +26,4 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 @import "layout/navigation";
 @import "layout/footer";
 
-@import "pages/home";
-@import "pages/about";
 @import "pages/index";

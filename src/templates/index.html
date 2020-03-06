@@ -1,9 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Frontend Test</title>
-  </head>
-  <body></body>
+<html>
+  <title>W3.CSS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <body class="index-page">
+    <aside id="sidebar" class="sidebar">
+      <ul class="sidebar__list">
+        <li id="sidebar__toggle" class="sidebar__item">
+          <a class="sidebar__link">
+            <i id="toggle__icon" class="fas fa-angle-left"></i>
+          </a>
+        </li>
+        <hr />
+        <li class="sidebar__item">
+          <a class="sidebar__link" href="">
+            <i class="fas fa-ad"></i>
+            <span class="sidebar__text">Menu 1</span>
+          </a>
+        </li>
+        <li class="sidebar__item">
+          <a class="sidebar__link" href="">
+            <i class="fas fa-ad"></i>
+            <span class="sidebar__text">Menu 1</span>
+          </a>
+        </li>
+      </ul>
+    </aside>
+    <main class="index-page__main">
+      <h1 class="main__title">list of employees</h1>
+      <div class="employees">
+        <ul class="employees__list"></ul>
+      </div>
+    </main>
+  </body>
 </html>

@@ -1,0 +1,43 @@
+.feature {
+  @include flex--space-between;
+  margin-top: 197px;
+
+  &__content {
+    > * {
+      margin-top: 23px;
+    }
+  }
+
+  &__heading {
+    font-size: 30px;
+    line-height: 40px;
+    color: $color--font-dark;
+    text-transform: capitalize;
+  }
+
+  &__introduction {
+    font-size: 15px;
+    line-height: 26px;
+    color: $color--info;
+  }
+
+  &__icon {
+    color: #2eca8b;
+    margin-right: 14px;
+  }
+
+  &__text {
+    display: inline;
+    font-size: 14px;
+    line-height: 22px;
+    color: $color--info;
+  }
+
+  &__actions {
+    .link__find-out {
+      @include font--16_line--24;
+      color: $color--primary;
+      text-transform: capitalize;
+    }
+  }
+}

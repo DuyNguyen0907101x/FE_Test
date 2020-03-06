@@ -1,0 +1,34 @@
+.nav {
+  &__item {
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .nav__item {
+    text-transform: uppercase;
+
+    &:not(:first-child) {
+        margin-left: 50px;
+      }
+
+    &:hover {
+      .nav__link {
+        color: $primary-color;
+        .arrow {
+          border-top-color: $primary-border-color;
+        }
+      }
+    }
+  }
+
+  &__link {
+    color: $info-dark-color;
+    line-height: 24px;
+    vertical-align: middle;
+    > .arrow {
+      margin-left: 6px;
+    }
+  }
+
+  
+}

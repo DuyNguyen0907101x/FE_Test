@@ -1,0 +1,57 @@
+$primary-color: #2f55d4;
+$primary-border-color: #2f55d4;
+$primary-color-hover: #ffffff;
+$primary-bg-color: #2f55d4;
+$primary-bg-color-hover: #2f55d4;
+$primary-border-color: #2f55d4;
+
+$primary-dark-color: #25304e;
+$primary-dark-bg-color: $primary-dark-color;
+$primary-dark-border-color: $primary-dark-color;
+
+$info-color: #8492a6;
+$info-dark-color: #3c4858;
+
+$light-color: #f8f9fc;
+$dark-color: #161c2d;
+
+
+$disabled-lighten: 15%;
+
+$button-colors: (
+  primary: (
+    color: #ffffff,
+    color-hover: #ffffff,
+    bg-color: #2f55d4,
+    bg-color-hover: #2443ac,
+    border-color: #2f55d4
+  ),
+  default: (
+    color: #2f55d4,
+    color-hover: #ffffff,
+    bg-color: #ffffff,
+    bg-color-hover: #2f55d4,
+    border-color: #2f55d4
+  )
+);
+
+$breakpoints: (
+  sm: 566px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+
+$sm: map-get($breakpoints, 'sm');
+$md: map-get($breakpoints, 'md');
+$lg: map-get($breakpoints, 'lg');
+$xl: map-get($breakpoints, 'xl');
+
+$font--nunito: "Nunito", sans-serif;
+$font--open-sans: "Open Sans", sans-serif;
+
+$color--primary: #2f55d4;
+$color--dark: #3c4858;
+$color--font-dark: #161c2d;
+$color--info: #8492a6;
+$color--light: #f8f9fc;

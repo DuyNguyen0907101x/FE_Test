@@ -1,0 +1,47 @@
+.main {
+  height: 1000px;
+  display: flex;
+  background-color: springgreen;
+  .collapsed {
+    background-color: sandybrown;
+    &__hr {
+      background-color: blue;
+      height: 2px;
+    }
+    &__btn {
+      background-color: sandybrown;
+      border: none;
+      outline: none;
+      width: 100%;
+    }
+    &__child {
+      display: flex;
+      margin-bottom: 20px;
+      align-items: center;
+      .fas {
+        font-size: 40px;
+      }
+    }
+    &__icon {
+      float: left;
+      font-size: 40px;
+    }
+    &__text {
+      margin-left: 10px;
+      margin-right: 80px;
+    }
+  }
+  .collapsed--clicked {
+    .collapsed__icon {
+      transform: rotate(180deg);
+    }
+    .collapsed__text {
+      display: none;
+    }
+  }
+  .list {
+    &__child {
+      background-color: #ffffff;
+    }
+  }
+}

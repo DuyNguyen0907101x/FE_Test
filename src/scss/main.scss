@@ -1,5 +1,5 @@
-@import "bootstrap";
-
+@import "vendors/bootstrap_override_variables";
+@import "~bootstrap/scss/bootstrap";
 $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 @import "~@fortawesome/fontawesome-free/scss/fontawesome";
 @import "~@fortawesome/fontawesome-free/scss/solid";
@@ -14,7 +14,7 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 @import "base/reset";
 @import "base/typography";
 
-@import "components/sidebar";
+@import "components/buttons";
 
 @import "layout/grid";
 @import "layout/header";

@@ -1,9 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Frontend Test</title>
   </head>
-  <body></body>
+
+  <body>
+    <section class="main">
+      <div id="collapsed" class="collapsed collapsed--clicked">
+        <div class="container">
+          <button id="btn" class="collapsed__btn">
+            <i class="collapsed__icon fas fa-chevron-left"></i>
+          </button>
+          <hr class="collapsed__hr" />
+          <div class="collapsed__child">
+            <i class="fas fa-cog"></i>
+            <div class="collapsed__text">Menu 1</div>
+          </div>
+          <div class="collapsed__child">
+            <i class="fas fa-cog"></i>
+            <div class="collapsed__text">Menu 2</div>
+          </div>
+        </div>
+      </div>
+      <div class="list">
+        <div id="list" class="list__text">List Employess</div>
+      </div>
+    </section>
+  </body>
 </html>

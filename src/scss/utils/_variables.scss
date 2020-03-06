@@ -1,0 +1,13 @@
+$primary: #f4623a;
+$secondary: rgba(255, 255, 255, 0.75);
+//Reponsive
+$breakpoints: (
+  sm: 566px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+$sm: map-get($breakpoints, "sm");
+$md: map-get($breakpoints, "md");
+$lg: map-get($breakpoints, "lg");
+$xl: map-get($breakpoints, "xl");
